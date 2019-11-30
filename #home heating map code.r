@@ -1,10 +1,3 @@
-# Here's a map of the primary home heating source by county in New Mexico. It's intentionally simple and static, using just the usmap package.
-
-# This uses one ACS table: B25040, house heating fuel, and the ACS 5-year estimates for 2016, the single estimate, not including margin of error.  
-
-# This begins with a .csv file. I previously cleaned the table in LibreOffice by removing some extraneous columns, trimming the county names, fixing spelling of Doña Ana County and renaming the file for clarity. Your workflow will vary.
-
-
 #load packages
 
 library(tidyverse)
